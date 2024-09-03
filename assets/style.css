@@ -1,0 +1,215 @@
+@font-face {
+    font-family: vazir;
+    src: url(fonts/Vazirmatn-Regular.woff2);
+}
+
+@font-face {
+    font-family: iransans;
+    src: url(fonts/IRANSans-web.woff);
+}
+
+* {
+    font-family: 'vazir';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(252, 252, 252);
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    #main{
+        display: none;
+    }
+
+    .main {
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .right-sectoin {
+        text-align: start;
+        border: 1px rgba(0, 0, 0, 0.041) solid;
+        border-radius: 14px;
+        padding: 0px 20px;
+        width: 500px;
+        background-color: white;
+    }
+    
+    .left-section {
+        /* padding: 0px 20px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px rgba(0, 0, 0, 0.041) solid; */
+        /* border-radius: 5px; */
+        height: 100%;
+        /* background-color: rgb(255, 255, 255); */
+        background-color: rgb(252, 252, 252);
+    }
+    
+    .about-title {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    
+    .about-name {
+        padding: 20px 0;
+        font-size: 28px;
+        color: rgba(29, 29, 29, 0.712);
+    }
+    
+    .about-content {
+        color: rgba(29, 29, 29, 0.712);
+        font-size: 17px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
+    .about-topics {
+        margin: 20px 0;
+        display: flex;
+        padding: 30px 30px;
+        justify-content: space-between;
+        gap: 20px;
+        height: 100%;
+        width: 100%;
+        border: 1px rgba(0, 0, 0, 0.041) solid;
+        background-color: white;
+        border-radius: 14px;
+    }
+    
+    .topic-part {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    .topic {
+        text-align: start;
+        background-color: rgba(147, 148, 148, 0.055);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    .topic p {
+        color: rgba(29, 29, 29, 0.712);
+    }
+
+    #button3 {
+      background-color: #2C7EF8;
+      border-radius: 8px;
+      color: white;
+      width: 65px;
+      height: 36px;
+      padding: 2px 4px;
+    }
+    
+    #border3 {
+      width: 335px;
+      height: 48px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+
+    .main{
+        display: none;
+    }
+
+    #main {
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    #right-sectoin {
+        /* text-align: start; */
+        border: 1px rgba(182, 182, 182, 0.041) solid;
+        border-radius: 5px;
+        padding: 0px 20px;
+        width: 500px;
+        /* background-color: white; */
+    }
+    
+    #left-section {
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px rgba(0, 0, 0, 0.041) solid; */
+        border-radius: 5px;
+        height: 100%;
+        /* background-color: white; */
+    }
+    
+    #about-title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    #about-name {
+        padding: 20px 0;
+        font-size: 28px;
+        color: rgba(15, 15, 15, 0.712);
+    }
+    
+    #about-content {
+        color: rgba(84, 83, 83, 0.712);
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    #about-topics {
+        /* margin: 20px 0; */
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    #topic-part {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    #topic {
+        text-align: start;
+        background-color: white;
+        /* border-radius: 5px; */
+        border: 1px rgb(244, 244, 244) solid;
+        padding: 10px;
+        /* width: 100%; */
+    }
+    
+    #topic p :first-child {
+        color: rgba(29, 29, 29, 0.712);
+    }
+
+    #button3 {
+      background-color: #2C7EF8;
+      border-radius: 8px;
+      color: white;
+      width: 65px;
+      height: 36px;
+      padding: 2px 4px;
+    }
+    
+    #border3 {
+      width: 328px;
+      height: 48px;
+    }
+  }
+  

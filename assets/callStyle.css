@@ -1,0 +1,194 @@
+@font-face {
+    font-family: vazir;
+    src: url(fonts/Vazirmatn-Regular.woff2);
+}
+
+@font-face {
+    font-family: iransans;
+    src: url(fonts/IRANSans-web.woff);
+}
+
+* {
+    font-family: 'vazir';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(252, 252, 252);
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .main {
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .right-sectoin {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: start;
+        border: 1px rgba(0, 0, 0, 0.041) solid;
+        border-radius: 5px;
+        padding: 0px 20px 20px;
+        width: 500px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .about-title {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    
+    .about-name {
+        padding: 20px 0;
+        font-size: 18px;
+        color: rgba(29, 29, 29, 0.712);
+    }
+    
+    .left-section {
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        border: 1px rgba(0, 0, 0, 0.041) solid;
+        border-radius: 5px;
+        width: 500px;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .input {
+        border-radius: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.779);
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid #eeeded;
+    }
+    
+    form button{
+        border: none;
+        background-color: rgb(0, 136, 255);
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    form p{
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    #button3 {
+      background-color: #2C7EF8;
+      border-radius: 8px;
+      color: white;
+      width: 65px;
+      height: 36px;
+      padding: 2px 4px;
+    }
+    
+    #border3 {
+      width: 335px;
+      height: 48px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+
+    .main{
+        display: none;
+    }
+
+    #main {
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    #right-sectoin {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: start;
+        border: 1px rgba(0, 0, 0, 0.041) solid;
+        border-radius: 5px;
+        padding: 20px 20px 20px;
+        margin: auto;
+        width: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #about-title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    #about-name {
+        padding: 20px 0;
+        font-size: 15px;
+        color: rgba(29, 29, 29, 0.712);
+    }
+    
+    #left-section {
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        border: 1px rgba(0, 0, 0, 0.041) solid;
+        border-radius: 5px;
+        /* width: 500px; */
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        font-weight: 10px;
+    }
+    
+    #input {
+        border-radius: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.779);
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid #eeeded;
+    }
+    
+    form button{
+        border: none;
+        background-color: rgb(0, 136, 255);
+        color: white;
+        /* font-weight:normal; */
+        /* font-size: 15px; */
+    }
+    form p{
+        /* font-weight: bold; */
+        margin: 10px 0;
+    }
+
+    #font{
+        font-size: 10px;
+    }
+
+    #button3 {
+      background-color: #2C7EF8;
+      border-radius: 8px;
+      color: white;
+      width: 65px;
+      height: 36px;
+      padding: 2px 4px;
+    }
+    
+    #border3 {
+      width: 328px;
+      height: 48px;
+    }
+  }
+  

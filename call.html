@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/callStyle.css">
+    <title>Call me</title>
+</head>
+
+<body>
+
+    <nav class="flex flex-row justify-between md:hidden py-3 bg-white">
+
+        <div
+            class="HAMBURGER-ICON space-y-2 hover:cursor-pointer pr-3"
+          >
+            <span class="block h-0.5 w-8  bg-black"></span>
+            <span class="block h-0.5 w-8  bg-black"></span>
+            <span class="block h-0.5 w-8  bg-black"></span>
+        </div>
+
+        <div>کوئرا لیست</div>
+
+        <div></div>
+
+    </nav>
+    <nav class="w-auto text-sm bg-white">
+        <div class="hidden md:container md:mx-auto md:flex md:flex-row md:items-center md:justify-between md:py-4 md:px-6">
+
+            <div></div>
+            
+            <div class="pr-8 hover:cursor-pointer">کوئرا لیست</div>
+
+            <div></div>
+
+            <div class="text-gray-500 hover:cursor-pointer"><a href="index.html">صفحه اصلی</a></div>
+
+            <div></div>
+
+            <div class="text-gray-500 hover:cursor-pointer"><a href="about.html">درباره ما</a></div>
+
+            <div></div>
+        
+            <div class="text-blue-400 hover:cursor-pointer pl-72"><a href="call.html">ارتباط با ما</a></div>
+
+        
+
+            <div class="md:flex md:flex-row pr-32">
+                <div class="pl-4">
+                    <button class="bg-blue-500 text-white w-36 h-9 rounded-md text-sm">ورود به اپلیکیشن</button>
+                </div>
+    
+                <button>
+                    <div class='relative'>
+                        <button class="rounded-md peer transition-all duration-50">
+                            <img class="block border-gray-700 w-10 h-10 space-x-2 hover:cursor-pointer" src="./icon/Frame 1000005337.png" alt="">
+                        </button>
+                        <div class='absolute top-10 z-10
+                        after:absolute after:bg-white
+                        after:w-full after:-z-20 after:rounded-lg
+                    peer-focus:top-16 peer-focus:left-16 peer-focus:border peer-focus:border-gray-100 peer-focus:bg-white peer-focus:opacity-100 peer-focus:visible 
+                    peer-focus:rounded-lg transition-all duration-50 invisible  opacity-0 
+                    '>
+                            <ul class='py-2 p-5 flex flex-col'>
+                                <li class='flex flex-row gap-2 cursor-pointer p-3 bg-white border-b border-gray-200'>
+                                    <img src="./icon/light-outline.png" alt="">
+                                    <span class="text-gray-500">حالت روشن</span>
+                                </li>
+                                <li class='flex flex-row gap-2 cursor-pointer p-3 bg-white border-b border-gray-200'>
+                                    <img src="./icon/dark-outline.png" alt="">
+                                    <span class="text-gray-500">حالت تاریک</span>
+                                </li>
+                                <li class='flex flex-row justify-between gap-4 cursor-pointer p-3 bg-white'>
+                                    <div class="flex flex-row gap-2">
+                                        <img src="./icon/light-dark.png" alt="">
+                                        <span class="text-gray-500">پیروی از دستگاه</span>
+                                    </div>
+                                    <img class="w-4 h-4" src="./icon/Stroke 3 (Stroke).png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+
+                </button>
+            </div>
+
+            <div></div>
+
+        
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="main">
+            <!-- right section -->
+            <div class="right-sectoin">
+                <div>
+                    <!-- title -->
+                    <p class="about-title">تماس با من</p>
+                    <p class="about-name">چیزی هست که بخوای از من بپرسی؟ خوشحال میشم بتونم بهت کمکی کنم.</p>
+                    <!-- call info -->
+                    <div style="margin-bottom: 30px; display: flex; gap: 5px; margin-top: 30px;">
+                        <img src="assets/img/call-receive-svgrepo-com.svg" width="25px">
+                        <div>
+                            <span>۱۲۳۴۵۶۷</span> <span>۰۹۱۲ </span>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 5px;">
+                        <img src="assets/img/email-svgrepo-com.svg" width="25px">
+                        <p>Queralist@gmail.com</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 25px;">
+                    <img src="assets/img/github-142-svgrepo-com.svg" width="25px">
+                    <img src="assets/img/twitter-round-svgrepo-com.svg" width="25px">
+                    <img src="assets/img/linkedin-round-svgrepo-com.svg" width="25px">
+                </div>
+            </div>
+            <!-- end right section -->
+    
+            <!-- left section -->
+            <div class="left-section">
+                <form>
+                    <!-- name and family -->
+                    <div style="display: flex; gap: 10px; width: 100%;">
+                        <div style="width: 100%;">
+                            <p>نام:</p>
+                            <input type="text" class="input" placeholder="نام شما">
+                        </div>
+                        <div style="width: 100%;">
+                            <p>نام خانوادگی:</p>
+                            <input type="text" class="input" placeholder="نام خانوداگی شما">
+                        </div>
+                    </div>
+                    <!-- end name and family -->
+    
+                    <!-- email -->
+                    <div>
+                        <p>ایمیل:</p>
+                        <input type="text" class="input" placeholder="ایمیل">
+                    </div>
+                    <!-- end email -->
+    
+                    <!-- phone -->
+                    <div>
+                        <p>شماره تماس:</p>
+                        <input type="text" class="input" placeholder="شماره تماس شما">
+                    </div>
+                    <!-- end phon -->
+    
+                    <!-- body -->
+                    <div>
+                        <p>متن:</p>
+                        <textarea placeholder="متن پیام شما" class="input" rows="5"></textarea>
+                    </div>
+                    <!-- end body -->
+    
+                    <!-- send message -->
+                    <button class="input">ارسال پیام</button>
+                    <!-- end send message -->
+                </form>
+            </div>
+            <!-- end left section -->
+        </div>
+
+
+        <div id="main" class="md:hidden">
+           <div>
+
+             <!-- right section -->
+             <div class="flex flex-col px-3">
+                <div class="flex flex-col justify-center items-center text-center">
+                    <!-- title -->
+                     <div>
+                        <p id="about-title">تماس با من</p>
+                     </div>
+                     <div>
+                        <p id="about-name">چیزی هست که بخوای از من بپرسی؟ خوشحال میشم بتونم بهت کمکی کنم.</p>
+                     </div>
+                </div>
+
+                <div id="left-section" class="p-10">
+                    <form>
+                        <!-- name and family -->
+                        <div style="display: flex; gap: 10px; width: 100%;">
+                            <div style="width: 100%;">
+                                <p id="inputs">نام:</p>
+                                <input type="text" id="input" placeholder="نام شما">
+                            </div>
+                            <div style="width: 100%;">
+                                <p>نام خانوادگی:</p>
+                                <input type="text" id="input" placeholder="نام خانوداگی شما">
+                            </div>
+                        </div>
+                        <!-- end name and family -->
+        
+                        <!-- email -->
+                        <div>
+                            <p>ایمیل:</p>
+                            <input type="text" id="input" placeholder="ایمیل">
+                        </div>
+                        <!-- end email -->
+        
+                        <!-- phone -->
+                        <div>
+                            <p>شماره تماس:</p>
+                            <input type="text" id="input" placeholder="شماره تماس شما">
+                        </div>
+                        <!-- end phon -->
+        
+                        <!-- body -->
+                        <div>
+                            <p>متن:</p>
+                            <textarea placeholder="متن پیام شما" id="input" rows="5"></textarea>
+                        </div>
+                        <!-- end body -->
+        
+                        <!-- send message -->
+                        <button id="input">ارسال پیام</button>
+                        <!-- end send message -->
+                    </form>
+                </div>
+
+                    <!-- call info -->
+                <div class="flex flex-col justify-center items-center gap-5 py-7">
+                    <div class="flex flex-row gap-5">
+                        <div class="flex flex-row p-3 gap-5 border border-gray-100 bg-white rounded-md">
+                            <img src="assets/img/email-svgrepo-com.svg" width="15px">
+                            <div>
+                                <p class="text-sm pb-1">ایمیل</p>
+                                <p id="font" >Queralist@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row p-3 gap-5 border border-gray-100 bg-white rounded-md">
+                            <img src="assets/img/call-receive-svgrepo-com.svg" width="15px">
+                            <div>
+                                <p class="text-sm">تلفن</p>
+                                <span id="font">۱۲۳۴۵۶۷</span> <span id="font">۰۹۱۲ </span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="flex flex-row p-3 gap-5 border border-gray-100 bg-white rounded-md md:w-4/5 w-full justify-center">
+                        <img src="assets/img/github-142-svgrepo-com.svg" width="20px">
+                        <img src="assets/img/twitter-round-svgrepo-com.svg" width="20px">
+                        <img src="assets/img/linkedin-round-svgrepo-com.svg" width="20px">
+                    </div>
+                </div>
+            </div>
+            <!-- end right section -->
+    
+
+           </div>
+         
+        </div>
+
+    </main>
+
+    <footer class="container flex flex-col items-center mx-auto py-10 px-10 text-center">
+        <div>
+            <img src="./pictures/Frame 427320721.png" alt="">
+        </div>
+        <div class="flex flex-col md:flex-row justify-center gap-12 md:pt-7">
+            <div class="md:hidden flex flex-col gap-3 text-right">
+                <p class="text-sm">با ما در ارتباط باش</p>
+                <p class="text-gray-700 pb-3 text-sm">اگه میخوای اولین نفری باشی که از فیچرهای جدید و تخفیفات با خبر بشی.</p>
+                <div id="border3" class="flex flex-row items-center justify-center gap-14 border border-gray-300 rounded-xl text-xs">
+                    <input class="w-3/5 rounded-md h-10 pr-0" placeholder="ایمیل" type="email" name="" id="">
+                    <button id="button3" class="">ارسال</button>
+                </div>
+            </div>
+            <div class="md:hidden flex flex-row gap-5 h-44 text-xs">
+                <div class="flex flex-col justify-center items-center gap-3 p-1 border border-gray-100 rounded-xl w-1/2">
+                    <img src="./icon/Frame 1000005390.png" alt="">
+                    <p class="text-gray-600">آدرس دفتر مرکزی: پونک - خیابان اشرفی اصفهانی - خیابان صاحبدل- بن بست شب بو</p>
+                </div>
+                <div class="flex flex-col gap-5 w-1/2 text-right">
+                    <div class="flex flex-row justify-center items-center gap-3 border border-gray-100 rounded-xl h-1/2">
+                        <img src="./icon/Frame 1000005390 (1).png" alt="">
+                        <div>
+                            <p class="text-gray-600">تلفن پشتیبانی</p>
+                            <p class="text-gray-600">۴۴۴۴۵۵۶۶ - ۰۲۱</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row justify-center items-center gap-3 border border-gray-100 rounded-xl h-1/2">
+                        <img src="./icon/Frame 1000005391.png" alt="">
+                        <div>
+                            <p class="text-gray-600">فکس</p>
+                            <p class="text-gray-600">۴۴۴۴۵۵۶۶ - ۰۲۱</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:flex md:flex-row md:justify-center md:gap-72">
+                <div class="hidden md:flex md:flex-col md:gap-3 md:text-right md:w-1/4">
+                    <div class="flex flex-row gap-3 p-2">
+                        <img src="./icons/fax.svg" alt="">
+                        <p class="text-gray-700 text-sm">فکس: ۴۴۴۴۵۵۶۶ - ۰۲۱</p>
+                    </div>
+                    <div class="flex flex-row gap-3 p-2">
+                        <img src="./icons/call.svg" alt="">
+                        <p class="text-gray-700 text-sm">تلفن پشتیبانی: ۴۴۴۴۵۵۶۶ - ۰۲۱</p>
+                    </div>
+                    <div class="flex flex-row gap-3 p-2">
+                        <img src="./icons/map.svg" alt="">
+                        <p class="text-gray-700 text-sm">آدرس دفتر مرکزی: پونک - خیابان اشرفی اصفهانی - خیابان صاحبدل- بن بست شب بو</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex md:flex-col md:gap-3 md:text-right md:w-1/4">
+                    <p>با ما در ارتباط باش</p>
+                    <p class="text-gray-700 pb-3 text-sm">اگه میخوای اولین نفری باشی که از فیچرهای جدید و تخفیفات با خبر بشی.</p>
+                    <div id="border3" class="flex flex-row items-center justify-center gap-14 border border-gray-300 rounded-xl w-full text-sm">
+                        <input class="w-3/5 rounded-md h-10 pr-0" placeholder="ایمیل" type="email" name="" id="">
+                        <button id="button3" class="w-1/6">ارسال</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-14 text-sm md:text-base">
+            <p class="text-gray-400">تمامی حقوق مادی و معنوی این سایت متعلق به کوئرالیست می‌باشد.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

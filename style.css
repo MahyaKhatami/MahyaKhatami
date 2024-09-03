@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Vazirmatn";
+    src: url(./font/lp_yekan.ttf);
+  }
+
+*{
+    font-family: "Vazirmatn", sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+  #button3 {
+    background-color: #2C7EF8;
+    border-radius: 8px;
+    color: white;
+    width: 65px;
+    height: 36px;
+    padding: 2px 4px;
+  }
+  
+  #border3 {
+    width: 335px;
+    height: 48px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #button3 {
+    background-color: #2C7EF8;
+    border-radius: 8px;
+    color: white;
+    width: 65px;
+    height: 36px;
+    padding: 2px 4px;
+  }
+  
+  #border3 {
+    width: 328px;
+    height: 48px;
+  }
+}
+
+
+
+
+/* 
+@media screen and (max-width: 768px) { body { font-size: 15px; }}
+@media screen and (min-width: 1280px) { body { font-size: 16px; }} */
+
